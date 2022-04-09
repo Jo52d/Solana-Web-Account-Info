@@ -1,0 +1,318 @@
+{
+    "-snode":{
+        "symbol":"SND",
+        "name":"SnodeCoin",
+        "display": true,
+        "maintenance":false,
+        "icon":"https://s2.coinmarketcap.com/static/img/coins/64x64/3523.png",
+        "price":0.89,
+        "promoprice":1.2,
+        "getnewaddresscmd": "getaccountaddress MN1",
+        "mnoutputcmd": "masternode outputs",
+        "mnstartcmd": "startmasternode alias false MN1",
+        "mncheckcmd": "masternode status",
+        "link":{
+            "graph":true,
+            "link1":{
+                "website":"https://snode.co/",
+                "github":"https://github.com/snodeco",
+                "explorer":"https://openchains.info/coin/snode/blocks",
+                "cmc":"https://coinmarketcap.com/currencies/snodecoin/",
+                "coingecko":"https://www.coingecko.com/en/coins/snodecoin"
+            },
+            "link2":{
+                "twitter":"https://twitter.com/snode_co",
+                "telegram":"https://t.me/snode_discussion",
+                "discord":"https://discord.gg/z3uH4JAskN",
+                "facebook":"https://fb.me/snodeco"
+            },
+            "link3":{
+                "birake":"https://trade.birake.com/market/BIRAKE.SND_BIRAKE.BTC"
+            }
+        },
+        "coinspec":{
+            "algo":"Neoscrypt",
+            "type":"PoS/MN",
+            "blocktime":90,
+            "premine":"1.5M",
+            "maxsupp":"60M",
+            "port":18988,
+            "serverportrpc":"2107xx",
+            "cliname":"snd_cli"
+        },
+        "strucinfo":{
+            "coltype":"unique",
+            "collateral":10000,
+            "getheight":"https://openchains.info/api/v1/snode/getheight",
+            "mnlist":"interne",
+            "MNreward":0.8
+        },
+        "structure":{
+            "0":{"height":15001,"reward":100},
+            "1":{"height":350401,"reward":50},
+            "2":{"height":700801,"reward":25},
+            "3":{"height":1051201,"reward":12.5},
+            "4":{"height":1401301,"reward":6.25},
+            "5":{"height":1752001,"reward":3.125},
+            "6":{"height":2102401,"reward":1.562}
+        },
+        "bitcoinjs":"{messagePrefix:'SnodeCoin Signed Message:',bip32:{public:0x0488b21e,private:0x0488ade4},pubKeyHash:0x3f,scriptHash:0x35,wif:0xbf}"
+    },
+    "-dequant":{
+        "symbol":"DEQ",
+        "name":"Dequant",
+        "display": true,
+        "maintenance":false,
+        "icon":"https://dequant.online/images/circlegradient2.png",
+        "price":0.69,
+        "promoprice":1,
+        "getnewaddresscmd": "getaccountaddress MN1",
+        "mnoutputcmd": "getmasternodeoutputs",
+        "mnstartcmd": "startmasternode alias false MN1",
+        "mncheckcmd": "getmasternodestatus",
+        "link":{
+            "graph":true,
+            "link1":{
+                "website":"https://dequant.online/",
+                "github":"https://github.com/dequant-project",
+                "cmc":"https://coinmarketcap.com/currencies/dequant",
+                "explorer":"https://ihostmn.com/explorerblockinfo.php?coin=DEQ&index=1",
+                "bitcointalk":"https://bitcointalk.org/index.php?topic=5310522",
+                "coinpaprika":"https://coinpaprika.com/coin/deq-dequant/",
+                "coingecko":"https://www.coingecko.com/en/coins/dequant"
+            },
+            "link2":{
+                "twitter":"https://twitter.com/Dequant1",
+                "discord":"https://discord.gg/r7bAmn6Sh7"
+            },
+            "link3":{
+                "finexbox":"https://www.finexbox.com/market/pair/DEQ-BTC",
+                "autradex":"https://wallet.autradex.systems/markets/babtc",
+                "exchangeassets":"https://exchange-assets.com/en/?market=deq_usdt"
+            }
+        },
+        "coinspec":{
+            "algo":"Qwark",
+            "type":"PoS/MN",
+            "blocktime":120,
+            "premine":"5M",
+            "maxsupp":"50M",
+            "port":32820,
+            "serverportrpc":"312xxx",
+            "cliname":"deq_cli"
+        },
+        "strucinfo":{
+            "coltype":"multiple",
+            "collateral":500,
+            "getheight":"https://ihostmn.com/api/v1/coinstats/public/list_coin?ticker=DEQ",
+            "mnlist":"interne",
+            "getheightexplorer":"ihostmn",
+            "MNreward":0.9
+        },
+        "structure":{
+            "0":{"height":0,"reward":1,"collateral":50},
+            "1":{"height":17001,"reward":1,"collateral":250},
+            "2":{"height":30001,"reward":2,"collateral":500},
+            "3":{"height":50001,"reward":3,"collateral":1000},
+            "4":{"height":80001,"reward":4,"collateral":2500},
+            "5":{"height":100001,"reward":5,"collateral":5000},
+            "6":{"height":125001,"reward":6.5,"collateral":7500},
+            "7":{"height":150001,"reward":10,"collateral":10000},
+            "8":{"height":200001,"reward":20,"collateral":20000},
+            "9":{"height":250001,"reward":30,"collateral":30000},
+            "10":{"height":300001,"reward":40,"collateral":40000},
+            "11":{"height":400001,"reward":50,"collateral":80000},
+            "12":{"height":500001,"reward":70,"collateral":100000},
+            "13":{"height":750001,"reward":5,"collateral":150000}
+        },
+        "bitcoinjs":"{messagePrefix:'Dequant Signed Message:',bip32:{public:0x222e3513,private:0x52f1e11b},pubKeyHash:0x1e,scriptHash:0x1f,wif:0xf2}"
+    },
+    "-merge":{
+        "symbol":"MERGE",
+        "name":"Merge",
+        "display": true,
+        "maintenance":true,
+        "icon":"https://assets.coingecko.com/coins/images/8769/small/Merge_Icon_Colored.png?1607391272",
+        "price":0.89,
+        "promoprice":1.2,
+        "getnewaddresscmd": "getaccountaddress MN1",
+        "mnoutputcmd": "getmasternodeoutputs",
+        "mnstartcmd": "startmasternode alias false MN1",
+        "mncheckcmd": "getmasternodestatus",
+        "link":{
+            "graph":true,
+            "link1":{
+                "website":"https://projectmerge.org/",
+                "gitlab":"https://gitlab.projectmerge.org/ProjectMerge/merge",
+                "cmc":"https://coinmarketcap.com/fr/currencies/project-merge/",
+                "explorer":"https://explorer.projectmerge.org/",
+                "bitcointalk":"https://bitcointalk.org/index.php?topic=5034723.0",
+                "coinpaprika":"http://coinpaprika.projectmerge.org/",
+                "coingecko":"http://coingecko.projectmerge.org/"
+            },
+            "link2":{
+                "twitter":"http://twitter.projectmerge.org/",
+                "discord":"http://discord.projectmerge.org/",
+                "telegram":"http://telegram-group.projectmerge.org/",
+                "medium":"http://medium.projectmerge.org/",
+                "facebook":"https://www.facebook.com/TheProjectMerge"
+            },
+            "link3":{
+                "stakecube":"https://stakecube.net/app/exchange/MERGE_BTC"
+            }
+        },
+        "coinspec":{
+            "algo":"See-Saw",
+            "type":"PoS/MN",
+            "blocktime":60,
+            "premine":"33M",
+            "maxsupp":"100M",
+            "port":32820
+        },
+        "strucinfo":{
+            "coltype":"unique",
+            "collateral":10000,
+            "getheight":"https://explorer.projectmerge.org/api/getblockcount",
+            "getmnnumber":"https://explorer.projectmerge.org/api/getmasternodecount",
+            "getmnlist":"https://explorer.projectmerge.org/ext/getmasternodes",
+            "MNreward":0.5
+        },
+        "structure":{
+            "0":{"height":1,"reward":15},
+            "1":{"height":43201,"reward":10},
+            "2":{"height":57601,"reward":20},
+            "3":{"height":72001,"reward":30},
+            "4":{"height":86401,"reward":40},
+            "5":{"height":100801,"reward":50},
+            "6":{"height":144001,"reward":55},
+            "7":{"height":273601,"reward":50},
+            "8":{"height":316801,"reward":45},
+            "9":{"height":360001,"reward":40},
+            "10":{"height":403201,"reward":35},
+            "11":{"height":446401,"reward":30},
+            "12":{"height":489601,"reward":25},
+            "13":{"height":532802,"reward":24},
+            "14":{"height":576003,"reward":23},
+            "15":{"height":662404,"reward":22},
+            "16":{"height":748805,"reward":21},
+            "17":{"height":835206,"reward":20},
+            "18":{"height":969127,"reward":19},
+            "19":{"height":1098728,"reward":18},
+            "20":{"height":1228329,"reward":17},
+            "21":{"height":1357930,"reward":16},
+            "22":{"height":1487531,"reward":15},
+            "23":{"height":1660332,"reward":14},
+            "24":{"height":1833133,"reward":13},
+            "25":{"height":2049134,"reward":12},
+            "26":{"height":2265135,"reward":11},
+            "27":{"height":2481136,"reward":10},
+            "28":{"height":2697137,"reward":9},
+            "29":{"height":2956338,"reward":8},
+            "30":{"height":3215539,"reward":7},
+            "31":{"height":3474740,"reward":6},
+            "32":{"height":3733941,"reward":5},
+            "33":{"height":3993142,"reward":4},
+            "34":{"height":4338743,"reward":3},
+            "35":{"height":4684344,"reward":2},
+            "36":{"height":5029945,"reward":1},
+            "37":{"height":5314421,"reward":0}
+        },
+        "bitcoinjs":"{messagePrefix:'Merge Signed Message:',bip32:{public:0x022d2533,private:0x0221312b},pubKeyHash:0x32,scriptHash:0x35,wif:0xb2}"
+    },
+    "-bitcrex":{
+        "symbol":"BIC",
+        "name":"Bitcrex-coin",
+        "display": false,
+        "icon":"https://explorer.bitcrex.xyz/images/logo.png",
+        "price":0.89,
+        "promoprice":1.2,
+        "getnewaddresscmd": "getaccountaddress MN1",
+        "mnoutputcmd": "getmasternodeoutputs",
+        "mnstartcmd": "startmasternode alias false MN1",
+        "mncheckcmd": "getmasternodestatus",
+        "link":{
+            "graph":true,
+            "link1":{
+                "website":"http://bitcrex.xyz/",
+                "github":"https://github.com/BITCREXCOIN",
+                "bitcointalk":"https://bitcointalk.org/index.php?topic=5323696.0",
+                "explorer":"https://openchains.info/coin/bitcrexcoin",
+                "coingecko":"https://www.coingecko.com/en/coins/bitcrex-coin"
+            },
+            "link2":{
+                "twitter":"https://twitter.com/Bitcrex",
+                "telegram":"https://t.me/joinchat/8sGcDaNJvgQ5YmI1",
+                "discord":"https://discord.com/invite/4HRWQxpfVm"
+            },
+            "link3":{
+                "graviex":"https://graviex.net/markets/bicbtc"
+            }
+        },
+        "coinspec":{
+            "algo":"Qwark",
+            "type":"PoS/MN",
+            "blocktime":60,
+            "premine":"50,000",
+            "maxsupp":"5M",
+            "port":36001
+        },
+        "strucinfo":{
+            "coltype":"unique",
+            "collateral":500,
+            "getheight":"https://openchains.info/api/v1/bitcrexcoin/getheight",
+            "MNreward":0.9
+        },
+        "structure":{
+            "0":{"height":1,"reward":0.06},
+            "1":{"height":15001,"reward":0.13},
+            "2":{"height":25001,"reward":0.2},
+            "3":{"height":35001,"reward":0.25},
+            "4":{"height":45001,"reward":0.3},
+            "5":{"height":55001,"reward":0.4},
+            "6":{"height":65001,"reward":0.5},
+            "7":{"height":75001,"reward":0.65},
+            "8":{"height":85001,"reward":0.85},
+            "9":{"height":95001,"reward":1},
+            "10":{"height":105001,"reward":1.2},
+            "11":{"height":115001,"reward":1.3},
+            "12":{"height":125001,"reward":1.4},
+            "13":{"height":135001,"reward":1.5},
+            "14":{"height":145001,"reward":1.6},
+            "15":{"height":155001,"reward":1.7},
+            "16":{"height":165001,"reward":1.8},
+            "17":{"height":175001,"reward":1.9},
+            "18":{"height":185001,"reward":2},
+            "19":{"height":195001,"reward":1.55},
+            "20":{"height":205001,"reward":1.25},
+            "21":{"height":215001,"reward":0.95},
+            "22":{"height":235001,"reward":0.55},
+            "23":{"height":245001,"reward":0.35},
+            "24":{"height":265001,"reward":0.22},
+            "25":{"height":500001,"reward":0.19},
+            "26":{"height":900001,"reward":0.17},
+            "27":{"height":1500001,"reward":0.08},
+            "28":{"height":5500001,"reward":0.05}
+        },
+        "bitcoinjs":"{messagePrefix:'SnodeCoin Signed Message:',bip32:{public:0x0488b21e,private:0x0488ade4},pubKeyHash:0x3f,scriptHash:0x35,wif:0xbf}"
+    },
+    "-xnode":{
+        "symbol":"XNODE",
+        "name":"Xnode",
+        "display": false,
+        "icon":"https://s2.coinmarketcap.com/static/img/coins/64x64/3523.png",
+        "price":1,
+        "getnewaddresscmd": "getaccountaddress MN1",
+        "mnoutputcmd": "masternode outputs",
+        "mngenkycmd": "masternode genkey",
+        "mnstartcmd": "startmasternode alias false MN1",
+        "mncheckcmd": "masternode status",
+        "collateral":{
+            "type":"multiple",
+            "getheight":"https://openchains.info/api/v1/xnode/getheight",
+            "collateral":{
+                "0":{"height":"50001","collateral":"1,000"},
+                "1":{"height":"75001","collateral":"5,000"}
+            }
+        }
+    }
+}
