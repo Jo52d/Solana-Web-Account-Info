@@ -12,3 +12,5 @@ Il n'est en aucun cas la pour être amélioré ou critiqué.
 Il pourra pourra peut-être aider certaines personnes à réalisé de petit projet.
 
 Ce repo ne contient en aucun cas un code propre et optimisé. (Souvent non commenté)
+
+-- Jo
