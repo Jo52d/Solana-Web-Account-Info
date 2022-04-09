@@ -170,7 +170,8 @@ window.addEventListener('load',function(event) {
 
       switch (getproviderinfo('provider')) {
         case 'Phantom':
-          window.solana.connect();
+          walletprovider = window.solana;
+          walletprovider.connect();
           displayproviderinfo(getproviderinfo("provider"),getproviderinfo("publicKey"),getproviderinfo("autoApprove"),getproviderinfo("autoConnect"))
     
       }
